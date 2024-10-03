@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* Element selecor */
+        div{
+            background-color: red;
+        }
+
+        /* class selector */
+        .blue{
+            background-color: blue;
+        }
+
+        /* ID selector */
+        #pink{
+            background-color: pink;
+        }
+
+        /* child selector */
+        div > p{
+            background-color: yellow;
+        }
+
+        /* descndant slector */
+        div p {
+            background-color: brown;
+        }
+
+        /* universal selctor */
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        /* psuedo slector */
+        a:visited{
+            color: red;
+        }
+
+        a:link{
+            color: yellow;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: green;
+        }
+
+        p:first-child{
+            color: aqua;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            Selectors in CSS
+        </h1>
+    </div>
+
+    <div class = "blue">
+        <p> Hello my name is Mustafa</p>
+    </div>
+
+    <div id="pink"> 
+        <p> I am pink</p>
+    </div>
+
+    <main class="one">
+        <p>I am first child</p>
+    </main>
+    <div>
+        <article>
+            <p>this is p in article</p>
+        </article>
+    </div>
+
+    <a target="_blank" href="https://google.com" >Open google</a>
+    <a target="_blank" href="https://Facebook.com" >Open Facebook</a>
+</body>
+</html>
